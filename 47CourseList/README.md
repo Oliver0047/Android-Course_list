@@ -1,14 +1,4 @@
-# miao-course-table
-      This is sourse code of Android Course Table Demo in Java.
-      
-      Here are some UI screenshots of the demo.
-      
-![course table of current week](https://github.com/sherry10/miao-course-table/raw/master/screenshot/01.jpg)
-
-![course table of another week](https://github.com/sherry10/miao-course-table/raw/master/screenshot/03.jpg)
-
-![slide navigation menu](https://github.com/sherry10/miao-course-table/raw/master/screenshot/02.jpg)
-
-![detailed information of selected course](https://github.com/sherry10/miao-course-table/raw/master/screenshot/04.jpg)
-
-      Please refer to [my blog](http://blog.csdn.net/echojosedream "My Blog") for more details. :)
+# 47号课程表
+* Android Studio
+* 主要框架是参考了https://github.com/sherry10/miao-course-table
+* 增加了欢迎界面、登录界面、今日课程栏目、导入导出Excel课程表、查看博客选项、可以自定义任何一门课程等功能
