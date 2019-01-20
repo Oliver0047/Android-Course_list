@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/basicText">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/excelin_setting"
+            android:icon="@drawable/excel_in"
+            android:title="@string/menu_course_add"
+            app:itemTextColor="@color/textColorPrimaryDark" />
+        <item
+            android:id="@+id/excelout_setting"
+            android:icon="@drawable/excel_out"
+            android:title="@string/menu_course_search"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/day_setting"
+            android:icon="@drawable/day"
+            android:title="@string/day_course"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/week_setting"
+            android:icon="@drawable/week"
+            android:title="@string/week_course"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/blog_looking"
+            android:icon="@drawable/ic_menu_course_search"
+            android:title="@string/blog_search"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+        <item
+            android:id="@+id/blog_writing"
+            android:icon="@drawable/ic_menu_course_add"
+            android:title="@string/blog_add"
+            app:itemTextColor="@color/textColorPrimaryDark"/>
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">47号课程表</string>
+    <string name="course_name">我的课表</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_main_home">欢迎，xxx</string>
+    <string name="menu_course_add">导入Excel课程</string>
+    <string name="menu_course_search">导出Excel课程</string>
+    <string name="day_course">今日课程</string>
+    <string name="week_course">本周课程</string>
+    <string name="blog_search">进入博客</string>
+    <string name="blog_add">编写博客</string>
+    <string name="menu_main_logout">注销</string>
+    <string name="loading_tip">加载中...</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="course_add_name">课程名称</string>
+    <string name="course_add_teacher">授课教师</string>
+    <string name="course_add_week">课程周数</string>
+    <string name="course_add_day">上课星期</string>
+    <string name="course_add_time">上课时间</string>
+    <string name="course_add_place">上课地点</string>
+
+    <string name="empty"></string>
+    <string name="mon">周一</string>
+    <string name="tue">周二</string>
+    <string name="wen">周三</string>
+    <string name="thu">周四</string>
+    <string name="fri">周五</string>
+    <string name="sta">周六</string>
+    <string name="sun">周日</string>
+
+    <string name="account">请输入登录的账号</string>
+    <string name="school">请输入学校名称</string>
+    <string name="password">请输入登录密码</string>
+    <string name="check_password">记住密码</string>
+    <string name="check_login">自动登录</string>
+    <string name="login">登录</string>
+    <string name="loading">正在加载数据</string>
+    <string name="title_activity_today">TodayActivity</string>
+
+</resources>

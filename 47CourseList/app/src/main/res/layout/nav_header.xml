@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimary"
+    android:padding="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/nav_icon_male" />
+
+    <TextView
+        android:id="@+id/Menu_main_textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-5-20"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/icon_image"
+        android:layout_toEndOf="@+id/icon_image" />
+
+    <TextView
+        android:id="@+id/Menu_main_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15211110128,欢迎你"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Menu_main_textDate"
+        android:layout_alignLeft="@+id/Menu_main_textDate"
+        android:layout_alignStart="@+id/Menu_main_textDate" />
+
+    <TextView
+        android:id="@+id/Menu_main_institute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数理与电子信息工程学院"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_below="@+id/Menu_main_name"
+        android:layout_alignLeft="@+id/Menu_main_name"
+        android:layout_alignStart="@+id/Menu_main_name"
+        android:layout_marginTop="18dp" />
+    <TextView
+        android:id="@+id/Menu_main_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电子信息科学与技术"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_below="@+id/icon_image"
+        android:layout_alignLeft="@+id/Menu_main_institute"
+        android:layout_alignStart="@+id/Menu_main_institute" />
+    <TextView
+        android:id="@+id/logout_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注销"
+        android:textColor="@color/courseTable4"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
